@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://static.wixstatic.com/media/c6282d_79142d114e4f4390a2bf1c2381a5e441~mv2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>สาขาวิทยาการคอมพิวเตอร์</b></h4>
+    <p class="w3-text-grey">Template by W3.CSS</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="สาขาวิทยากรคอมพิวเตอร์">
+    <a href="#"><img src="https://static.wixstatic.com/media/c6282d_79142d114e4f4390a2bf1c2381a5e441~mv2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">หน้าหลัก</span> 
+      <button class="w3-button w3-white"></i>ข่าวสาร</button>
+      <button class="w3-button w3-white w3-hide-small"></i>เกี่ยวกับ</button>
+      <button class="w3-button w3-white w3-hide-small"></i>หลักสูตร</button>
+      <button class="w3-button w3-white w3-hide-small"></i>งานบริการ</button>
+      <button class="w3-button w3-white w3-hide-small"></i>งานบริการนักศึกษา</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://static.wixstatic.com/media/c6282d_79142d114e4f4390a2bf1c2381a5e441~mv2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>กิจกรรม</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://static.wixstatic.com/media/c6282d_79142d114e4f4390a2bf1c2381a5e441~mv2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>กิจกรรม</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://static.wixstatic.com/media/c6282d_79142d114e4f4390a2bf1c2381a5e441~mv2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>กิจกรรม</b></p>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+  
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>ประวัติ</b></h4>
+    <p>ประวัติสาขาวิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ ม.แม่โจ้
+        สาขาวิชาวิทยาการคอมพิวเตอร์ ได้ดำเนินการเปิดสอนมาตั้งแต่ปีการศึกษา2536 เป็นสาขาวิชาแรกของคณะวิทยาศาสตร์ที่เริ่มจัดตั้งมาพร้อมกับคณะวิทยาศาสตร์ โดยมีประวัติความเป็นมาดังนี้
+                  ปีการศึกษา 2536 หมวดวิชาวิทยาศาสตร์และคณิตศาสตร์ ภาควิชาศึกษาทั่วไป คณะธุรกิจการเกษตร ได้แยกตัวออกมาเพื่อจัดตั้งเป็นคณะวิทยาศาสตร์ โดยมีภาควิชาวิทยาการคอมพิวเตอร์เป็นภาควิชาหนึ่งที่สังกัดในคณะวิทยาศาสตร์ ในระยะเริ่มแรกได้บริหารจัดการโดย หัวหน้าภาควิชาคนแรก
+        (รองศาสตราจารย์จรัส  กาใหญ่)  ต่อมาได้ขยายจำนวนรับคณาจารย์มากขึ้นตามลำดับ โดยมีภาระงานสอนรายวิชาคอมพิวเตอร์เบื้องต้น ซึ่งเป็นรายวิชาพื้นฐานสำหรับนักศึกษาในหลายสาขาวิชา นอกจากนั้นยังเปิดสอนรายวิชาการเขียนโปรแกรมภาษาเบสิค และรายวิชาโปรแกรมสำเร็จรูปเพื่อเป็นวิชาเลือกให้กับนักศึกษาที่สนใจเรียนรายวิชาทางด้านคอมพิวเตอร์เป็นวิชาเลือกเสรีอีกด้วย ขณะนั้นใช้เครื่องไมโครคอมพิวเตอร์รุ่น 386 จำนวน 30 เครื่อง เป็นอุปกรณ์ที่ใช้ในการเรียนการสอน โดยสำนักงานของภาควิชาวิทยาการคอมพิวเตอร์ตั้งอยู่ที่อาคารเรียนรวมทางวิทยาศาสตร์ (หลังเก่า) 2ชั้น
+                  ปีการศึกษา 2538 ภาควิชาวิทยาการคอมพิวเตอร์ได้เปิดสอนหลักสูตรสาขาวิชาวิทยาการคอมพิวเตอร์ขึ้น เป็นสาขาวิชาแรกในคณะวิทยาศาสตร์ โดยมีนักศึกษาเข้าศึกษาเป็นรุ่นแรกจำนวน 38 คน พร้อมกับได้รับงบประมาณจัดซื้อเครื่องไมโครคอมพิวเตอร์คอมพิวเตอร์รุ่น486 เพิ่มอีกจำนวน 30 เครื่อง ต่อจากนั้นในแต่ละปีการศึกษาก็รับนักศึกษาเข้าใหม่อีกปีละประมาณ 50 คน
+                  ปีการศึกษา 2543 สาขาวิชาวิทยาการคอมพิวเตอร์ มีจำนวนนักศึกษาทั้ง 4 ชั้นปีประมาณ 200 คน และมีนักศึกษาที่สำเร็จการศึกษาจบตามหลักสูตร ออกไปรับใช้ประเทศชาติแล้วจำนวน 2 รุ่น ประมาณ 65 คน  ขณะนั้นภาควิชาวิทยาการคอมพิวเตอร์ได้ย้ายสำนักงานมาอยู่ที่อาคารเรียนรวมทางวิทยาศาสตร์ (หลังใหม่) ชั้นที่ 6 โดยมีห้องปฏิบัติการคอมพิวเตอร์เบื้องต้นสำหรับนักศึกษาสาขาวิชาอื่น ๆ เพิ่มอีกจำนวน 2 ห้องปฏิบัติการ โดยติดตั้งระบบ LAN ที่ใช้เครื่องไมโครคอมพิวเตอร์ Pentium III 500 MHz ใช้ระบบปฏิบัติการ WINDOWS 98 จำนวน 50 เครื่อง ห้องปฏิบัติการคอมพิวเตอร์สำหรับนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ จำนวน 2 ห้อง โดยติดตั้งระบบ LAN ที่ใช้เครื่องไมโครคอมพิวเตอร์ Pentium III 500 MHz ระบบปฏิบัติการ WINDOWS NT จำนวน 100 เครื่อง ห้องปฏิบัติการคอมพิวเตอร์ระบบ UNIX สำหรับงานวิจัยของคณาจารย์และงานสำหรับทำโครงงาน คอมพิวเตอร์ของนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ชั้นปีที่ 4 ประกอบด้วยไมโครคอมพิวเตอร์ SUN จำนวน 5 เครื่อง เครื่องไมโครคอมพิวเตอร์ Silicon Graphic จำนวน 2 เครื่อง และเครื่องไมโครคอมพิวเตอร์ Pentium III 500 MHz จำนวน 3 เครื่อง
+                  ปีการศึกษา 2545 ภาควิชาวิทยาการคอมพิวเตอร์ เริ่มเปิดการเรียนการสอนหลักสูตรสาขาวิชาที่ 2 คือ หลักสูตรสาขาวิชาเทคโนโลยีสารสนเทศ สังกัดภาควิชาวิทยาการคอมพิวเตอร์ มีนักศึกษาภาคปกติ จำนวนประมาณ 55 คนและภาคสมทบ จำนวนประมาณ 90 คน
+                  ปีการศึกษา 2547 ภาควิชาวิทยาการคอมพิวเตอร์ ได้เพิ่มจำนวนห้องเรียนปฏิบัติการคอมพิวเตอร์ จำนวน 1 ห้องเรียน และห้องบรรยายคอมพิวเตอร์จำนวน 1 ห้องเรียน สำหรับใช้ในการเรียนการสอนของสาขาวิชาเทคโนโลยีสารสนเทศ โดยตั้งอยู่ที่อาคารเรียนรวมทางวิทยาศาสตร์ (หลังเก่า) 2 ชั้น และจัดซื้อเครื่องไมโครคอมพิวเตอร์ Intel รุ่น Pentium 4 ความเร็วขนาด 3.0 GHz จำนวน 20 เครื่อง
+                  ปีการศึกษา 2549 ภาควิชาวิทยาการคอมพิวเตอร์ รับอาจารย์มาเพิ่มจำนวน 2 คน และมีอาจารย์ที่ได้รับทุนการศึกษากลับมาปฏิบัติงานจำนวน 2 คน เพื่อรองรับรายวิชาของสาขาวิชาวิทยาการคอมพิวเตอร์และสาขาวิชาเทคโนโลยีสารสนเทศที่มีจำนวนรายวิชาเพิ่มมากขึ้น
+                  ปีการศึกษา 2550 ภาควิชาวิทยาการคอมพิวเตอร์ มีจำนวนนักศึกษาทั้ง 2 สาขาวิชา รวมทั้งหมด (ภาคปกติและภาคสมทบ) ประมาณ 433 คน คณาจารย์ 18 คน (รวมทั้งนักเรียนทุนโท-เอกและอาจารย์
+        ลาศึกษาต่อ)
+                  ปีการศึกษา 2551 ภาควิชาวิทยาการคอมพิวเตอร์ ยกเลิกภาควิชาเปลี่ยนแปลงเป็น สาขาวิชาวิทยาการคอมพิวเตอร์ แยกตัวออกจากสาขาวิชาเทคโนโลยีสารสนเทศ
+                  ปีการศึกษา 2554 สาขาวิชาวิทยาการคอมพิวเตอร์ รับสมัครพนักงานมหาวิทยาลัยตำแหน่งอาจารย์วุฒิการศึกษาระดับปริญญาโท จำนวน 1 อัตรา
+                  ปีการศึกษา 2555 สาขาวิชาวิทยาการคอมพิวเตอร์ มีห้องปฏิบัติการคอมพิวเตอร์ใหม่เพิ่มอีก  จำนวน 1 ห้อง คือ ห้องปฏิบัติการคอมพิวเตอร์ 3203 ชั้น 2 อาคารจุฬาภรณ์  โดยได้จัดซื้อเครื่องไมโครคอมพิวเตอร์ Intel รุ่น Core I7  จำนวน 46 เครื่อง และมีห้องสำหรับวิจัยทางคอมพิวเตอร์ คือ ห้อง 3204 ชั้น 2 อาคารจุฬาภรณ์ และได้มีการบรรจุพนักงานมหาวิทยาลัยตำแหน่งอาจารย์ระดับปริญญาเอก จำนวน 1 คน สาขาวิชาได้มีโลโก้ของสาขาวิชาฯ โดยเป็นผลงานการออกแบบของนักศึกษาและทางสาขาวิชาฯได้ปรับปรุงสีให้เหมาะสมโดยใช้สีฟ้าเข้มเป็นสัญลักษณ์ของสาขาวิชาฯ  สาขาวิชาวิทยาการคอมพิวเตอร์ มีจำนวนนักศึกษาที่กำลังศึกษา รวมทั้งหมดประมาณ 472 คน คณาจารย์ 14 คน (รวมทั้งนักเรียนทุนโท-เอกและอาจารย์ลาศึกษาต่อ) </p>
+    <hr>
+    
+    
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Us</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Fax : +6653873898</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>
+            มหาวิทยาลัยแม่โจ้ 63 หมู่4
+            ต.หนองหาร อ.สันทราย
+            จ.เชียงใหม่ 50290</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+6653873890-3</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
